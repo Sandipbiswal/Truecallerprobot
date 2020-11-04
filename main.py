@@ -28,9 +28,9 @@ def newbt(client,callback_query):
     if txt=="about":
         callback_query.message.edit(text=f"`Bot`            : [Truecallerprobot](t.me/Truecallerprobot)\n`Creator :` [Sandeep](t.me/SandeepBiswal)\n`language:` [Python3](https://python.org)\n`Library :` [Pyrograms](https://t.me/Truecallerpro_bot/) \n`Server  :` [Heroku](https://herokuapp.com/)",
                         disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("Give Feedback", url="t.me/Ptmlootoffersbot")]]))
+            [[InlineKeyboardButton("Give Feedback", url="t.me/SandeepBiswal")]]))
     elif txt=="src":
-        callback_query.message.edit(text="Enjoy...:-D\nhttps://github.com/agentnova/KnowhoBot", disable_web_page_preview=True)
+        callback_query.message.edit(text="Enjoy...:-D\nhttps://github.com/Sandipbiswal/Truecallerprobot", disable_web_page_preview=True)
 
 
 
@@ -39,7 +39,7 @@ def about(client, message):
     client.send_message(chat_id=message.chat.id, reply_to_message_id=message.message_id,
                         text=f"`Bot`            : [Truecallerprobot](t.me/Truecallerprobot)\n`Creator :` [Sandeep](t.me/SandeepBiswal)\n`Language:` [Python3](https://python.org)\n`Library :` [Pyrograms](https://t.me/Truecallerpro_bot/) \n`Server  :` [Heroku](https://herokuapp.com/)",
                         disable_web_page_preview=True, reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("Feedback", url="t.me/Ptmlootoffersbot")]]))
+            [[InlineKeyboardButton("Feedback", url="t.me/SandeepBiswal")]]))
 
 
 @app.on_message(filters.command(["log"]))
