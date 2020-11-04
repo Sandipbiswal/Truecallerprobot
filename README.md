@@ -1,4 +1,4 @@
-# KnowhoBot
+# Truecaller Pro Bot
 
 Pluggable
 [Telegram](https://telegram.org) bot based on
@@ -21,7 +21,7 @@ Mozilla Public License for more details.
 
 #### The Easy Way
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/agentnova/KnowhoBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Sandipbiswal/Truecallerprobot)
 
 #### Watch video
 
@@ -34,7 +34,7 @@ Simply clone the repository and run the main file:
 ```sh
 git clone https://github.com/agentnova/KnowhoBot.git
 
-cd KnowhoBot
+cd Truecaller Pro Bot
 
 python3 -m venv venv
 
